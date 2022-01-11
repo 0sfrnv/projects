@@ -1,1 +1,66 @@
+.header
+   display: flex
+   flex-direction: column
+   justify-content: space-between
+   height: 200px
+   padding-top: 40px
+   background-color: #fff
+   &-top
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: center
 
+.search
+   display: flex
+   position: relative
+   width: 350px
+   height: 40px
+   border-radius: 6px
+   overflow: hidden
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+   &__input
+      position: absolute
+      width: 100%
+      height: 100%
+      padding: 12px 70px 13px 23px
+      background-color: #F5FAFE
+      border: none
+   &__input:focus-visible
+      outline: 0
+   &__button
+      position: absolute
+      top: 0
+      right: 0
+      width: 65px
+      height: 40px
+      background-color: $color
+      height: 100%
+      border: none
+
+.user
+   display: flex
+   align-items: center
+   color: $text-color
+   text-decoration: none
+   &__avatar
+      width: 40px
+      height: 40px
+      object-fit: cover
+      border-radius: 50%
+   &__name
+      margin-left: 14px
+
+.header-menu
+   width: 100%
+   display: flex
+   align-items: center
+   background-color: #0A223D
+   height: 80px
+   &__nav
+      width: 100%
+      display: flex
+      justify-content: space-between
+      &__link
+         color: #FFFFFF
+         text-decoration: none
