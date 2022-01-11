@@ -390,6 +390,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  margin-left: 108px;
+  margin-right: auto;
   width: 350px;
   height: 40px;
   border-radius: 6px;
