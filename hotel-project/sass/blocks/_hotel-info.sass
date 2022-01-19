@@ -1,0 +1,50 @@
+.hotel-info
+   display: flex
+   justify-content: space-between
+   align-items: center
+   min-height: 100px
+
+.stars
+   flex-basis: 100%
+.hotel-desc
+   display: flex
+   align-items: center
+   flex-wrap: wrap
+   &__name
+      font-size: 24px
+      line-height: 30px
+   &__hot
+      background-color: $color
+      height: 20px
+      padding: 3px 9px
+      margin-left: 14px
+      font-size: 10px
+      line-height: 13px
+      color: $white
+      border-radius: 3px
+   &__text
+      flex-basis: 100%
+      font-size: 12px
+      line-height: 15px
+
+.hotel-rating
+   display: flex
+   flex-direction: column
+   justify-content: space-between
+   align-items: center
+   min-width: 65px
+   max-width: 65px
+   height: 45px
+   padding: 9px 0
+   background-color: $color
+   color: $white
+   border-radius: 4px
+   &__title
+      font-size: 8px
+      line-height: 10px
+   &__score
+      font-size: 14px
+      line-height: 18px
+      & sub
+         font-size: 71%
+         bottom: 0

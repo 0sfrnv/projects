@@ -18,12 +18,13 @@
    <header class="header">
 
       <div class="header-top container">
-         <a href="#" class="logo">
-            <img src="img/logo-horizontal.svg" alt="Logo: Best Tour Plan" class="logo__img">
+
+         <a href="#" class="header-logo">
+            <img src="img/logo-horizontal.svg" alt="Logo: Best Tour Plan">
          </a>
 
          <form action="#" class="search">
-            <input type="text" class="search__input" placeholder="Search Location"></input>
+            <input type="text" class="search__input" placeholder="Search Location">
             <button class="search__button"><img src="img/search.svg" alt="Icon: Search"></button>
          </form>
 
@@ -31,26 +32,62 @@
             <img src="img/avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
             <span class="user__name">Nathan</span>
          </a>
-         <!-- /.user -->
+
+         <button class="header-menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+
       </div>
-      <!-- /.header-top -->
 
       <div class="header-menu">
          <nav class="header-menu__nav container">
-            <a href="#" class="header-menu__nav__link">All Deals</a>
-            <a href="#" class="header-menu__nav__link">Hotels</a>
-            <a href="#" class="header-menu__nav__link">Activities</a>
-            <a href="#" class="header-menu__nav__link">Hotel Day Packages</a>
-            <a href="#" class="header-menu__nav__link">Restaurants</a>
-            <a href="#" class="header-menu__nav__link">Events</a>
-            <a href="#" class="header-menu__nav__link">Rodrigues</a>
+            <a href="#" class="header-menu__nav-link">All Deals</a>
+            <a href="#" class="header-menu__nav-link">Hotels</a>
+            <a href="#" class="header-menu__nav-link">Activities</a>
+            <a href="#" class="header-menu__nav-link">Hotel Day Packages</a>
+            <a href="#" class="header-menu__nav-link">Restaurants</a>
+            <a href="#" class="header-menu__nav-link">Events</a>
+            <a href="#" class="header-menu__nav-link">Rodrigues</a>
          </nav>
       </div>
-      <!-- /.header-nav-wrapper -->
-
-
-      <!-- /.header-wrapper -->
    </header>
+
+   <nav class="breadcrumb container">
+      <ul class="breadcrumb__list">
+         <li class="breadcrumb__item">
+            <a href="#" class="breadcrumb__link">Home</a>
+         </li>
+         <li class="breadcrumb__item">
+            <a href="#" class="breadcrumb__link">Flash Offers</a>
+         </li>
+         <li class="breadcrumb__item">
+            Grand Hilton Hotel
+         </li>
+      </ul>
+   </nav>
+
+   <section class="hotel-info container">
+      <div class="hotel-desc">
+         <div class="stars">
+            <img src="img/star.svg" alt="star">
+            <img src="img/star.svg" alt="star">
+            <img src="img/star.svg" alt="star">
+            <img src="img/star.svg" alt="star">
+            <img src="img/star.svg" alt="star">
+         </div>
+         <h2 class="hotel-desc__name">GRAND HILTON HOTEL</h2>
+         <div class="hotel-desc__hot">Flash Offer</div>
+         <p class="hotel-desc__text">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+      </div>
+
+      <div class="hotel-rating">
+         <span class="hotel-rating__title">User Rattings</span>
+         <span class="hotel-rating__score">4.5/<sub>5</sub></span>
+
+      </div>
+   </section>
 
 </body>
 
